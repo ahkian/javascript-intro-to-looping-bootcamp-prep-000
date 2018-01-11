@@ -9,6 +9,7 @@ function forLoop(arr1){
     if (i === 1){ arr1.push("I am 1 strange loop");
   } else {arr1.push("I am ${i} strange loops")}
  }
+ return arr1
 }
 
 function whileLoop(num){
