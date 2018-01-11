@@ -5,7 +5,7 @@ for (var i = 1; i < 100; i++) {
 var arr1 = []
 
 function forLoop(arr1){
-  for(let i = 0; i < 26; i++){
+  for(let i = 0; i < 25; i++){
     if (i === 1){ arr1.push("I am 1 strange loop");
   } else {arr1.push("I am ${i} strange loops")}
  }
